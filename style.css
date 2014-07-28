@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+	overflow: hidden;
+	
+}
+.contenedor{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    z-index: 0;
+	
+}
+video#cell_video_1{
+position: absolute; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+}
+
+video#train_video_1{
+position: absolute; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+}
+
+.video1{
+  position: relative;
+    height: 100%;
+    width: 50%; /*  NOTE: numVideos/100%  */;
+    float: left;
+}
+
+
+.video2{
+  position: relative;
+    height: 100%;
+    width: 50%; /*  NOTE: numVideos/100%  */;
+    float: left;
+}
+
+.cuadro {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+
+.texto{
+	font-family: "arial black";
+	font-size: 25px;
+	color: white;
+	margin-top: 20%;
+	margin-bottom: 20%;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.nav {
+   margin:auto 45% auto 45%;
+    padding: 20px;
+    background: black;
+    border-radius: 40px;
+    opacity: .4;
+    cursor: pointer;
+	float: left;
+	color: white;
+}
+
+.nav:hover {
+	
+	background: yellow;
+}
